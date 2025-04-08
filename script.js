@@ -4,6 +4,7 @@ function toggleMenu(){
     menu.classList.toggle("open");
     icon.classList.toggle("open");
 }
+
 function processTextToSymbols(text) {
   const output = document.getElementById("output-symbols");
   output.innerHTML = "";
