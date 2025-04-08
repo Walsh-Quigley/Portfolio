@@ -32,7 +32,7 @@ function processTextToSymbols(text) {
       imgSrc = `assets/Letters/${char.toUpperCase()}.png`;
     } else if (char === '.' && i === trimmedText.length - 1) {
       // Special case: final period
-      imgSrc = `assets/Punctuation/EndOfScript.png`;
+      imgSrc = `assets/Punctuation/EndOfScript.png`;  // Assuming you have this image in punctuation folder
     } else if (punctuationMap[char]) {
       imgSrc = `assets/Punctuation/${punctuationMap[char]}.png`;
     } else {
