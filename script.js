@@ -12,7 +12,7 @@ function processTextToSymbols(text) {
   const punctuationMap = {
     '.': 'Period',
     '!': 'ExclamationMark',
-    '?': 'QuestionMark',
+    '?': 'Mark',
     ',': 'Comma',
     '\'': 'Apostrophe',
     ';': 'Semicolon',
