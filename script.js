@@ -29,12 +29,12 @@ function processTextToSymbols(text) {
     let imgSrc = '';
 
     if (/[a-zA-Z]/.test(char)) {
-      imgSrc = `Assets/Letters/${char.toUpperCase()}.png`;
+      imgSrc = `assets/Letters/${char.toUpperCase()}.png`;
     } else if (char === '.' && i === trimmedText.length - 1) {
       // Special case: final period
-      imgSrc = `Assets/Punctuation/EndOfScript.png`;
+      imgSrc = `assets/Punctuation/EndOfScript.png`;
     } else if (punctuationMap[char]) {
-      imgSrc = `Assets/Punctuation/${punctuationMap[char]}.png`;
+      imgSrc = `assets/Punctuation/${punctuationMap[char]}.png`;
     } else {
       continue;
     }
